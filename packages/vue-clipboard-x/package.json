@@ -14,5 +14,9 @@
   },
   "peerDependecies": {
     "vue": ">=3.0.0"
+  },
+  "gitHead": "a9af89ca036162a1f94b55e8957b99cc54b2303f",
+  "publishConfig": {
+    "access": "public"
   }
 }
