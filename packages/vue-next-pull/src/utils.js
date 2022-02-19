@@ -1,5 +1,3 @@
-// http://www.alloyteam.com/2012/11/javascript-throttle/
-
 export function throttle (fn, delay, mustRunDelay = 0) {
   if (delay == null) return fn;
   /* istanbul ignore next */
