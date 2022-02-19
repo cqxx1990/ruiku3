@@ -31,9 +31,9 @@ var VueClipboard = {
         if (VueClipboardConfig.appendToBody) document.body.removeChild(fakeElement)
       })
     }
-    const bind = isVue3?"mount":"bind"
-    const update = isVue3?"update":"beforeUpdate"
-    const unbind = isVue3?"unmount":"unbind"
+    const bind = isVue3?"mounted":"bind"
+    const update = isVue3?"beforeUpdate":"update"
+    const unbind = isVue3?"unmounted":"unbind"
     Vue.directive('clipboard', {
       [bind]: function (el, binding, vnode) {
         if (binding.arg === 'success') {
