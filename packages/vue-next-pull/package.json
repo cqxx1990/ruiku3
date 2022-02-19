@@ -1,6 +1,6 @@
 {
   "name": "@ruiku/vue-pull-to",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,7 @@
   "author": "",
   "license": "ISC",
   "gitHead": "dd550db95415fb92b31803532446973ccf020161",
-  "publishConfig": {"access": "public"}
+  "publishConfig": {
+    "access": "public"
+  }
 }
