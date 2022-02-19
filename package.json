@@ -27,5 +27,6 @@
   },
   "dependencies": {
     "vue": "^3.2.31"
-  }
+  },
+  "publishConfig": {"access": "public"}
 }
