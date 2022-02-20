@@ -1,14 +1,3 @@
-import VueClipboard from '..'
-
-import {
-  createApp
-} from 'vue'
-
-// const app = createApp()
-// app.use(VueClipboard)
-// console.log(VueClipboard)
-// console.log(app)
-
 export default {
   title:"VueClipboard",
   component:document.body

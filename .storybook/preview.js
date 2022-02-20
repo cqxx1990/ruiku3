@@ -7,3 +7,16 @@ export const parameters = {
     },
   },
 }
+// .storybook/preview.js
+
+import { app } from '@storybook/vue3';
+import VueClipboard from '../packages/vue-clipboard-x/index'
+
+app.use(VueClipboard);
+
+export const decorators = [
+  (story) => ({
+    components: { story },
+    template: '<div style="margin: 3em;"><story /></div>',
+  }),
+];
